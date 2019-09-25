@@ -1,0 +1,29 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "Munishkin notes",
+  "main": "./src/main.js",
+  "scripts": {
+    "build": "webpack --watch --hot",
+    "start": "nodemon server.js",
+    "production": "NODE_ENV=production webpack -p"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.2",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-masonry-component": "^6.2.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "webpack": "^3.0.0"
+  }
+}

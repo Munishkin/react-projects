@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+.root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #eaeaea;
+}
+
+.container {
+  padding-top: 50px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.app {
+  background-color: white;
+  margin-top: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08), 0 6px 6px rgba(0, 0, 0, 0.12);
+}
+
+.input-box {
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+
+.input {
+  border: 0;
+  padding: 16px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.completed {
+  padding: 16px;
+  text-decoration: line-through;
+  cursor: pointer;
+  color: grey;
+  user-select: none;
+  position: relative;
+}
+
+.notCompleted {
+  padding: 16px;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid lightgrey;
+  padding: 8px 0;
+}
+
+.link {
+  padding: 0 6px;
+  user-select: none;
+  cursor: pointer;
+  color: grey;
+}
+
+.activeLink {
+  padding: 0 6px;
+  user-select: none;
+  font-weight: bold;
+  color: grey;
+}
+
+.delete {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.delete:hover {
+  color: grey;
+}
+
+.datePicker {
+ display: flex;
+ flex-direction: row;
+  padding: 10px;
+}
+
+.dateTitle {
+  color:grey;
+  padding: 0 5px;
+  font-size: 14px;
+}
+
+.saveTodo {
+  margin: 10px;
+  font-size: 14px;
+  color: grey;
+}
+
+.red {
+  font-weight: 900;
+  padding-right: 10px;
+  color: red;
+}
+
+.edit {
+  color: grey;
+  float: right;
+  margin-right: 20px;
+  font-size: 14px;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "members",
+  "version": "1.0.0",
+  "description": "Members",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack-dev-server --hot --inline --watch",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "members"
+  ],
+  "author": "Munishkin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "react-hot-loader": "^3.1.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.2"
+  }
+}

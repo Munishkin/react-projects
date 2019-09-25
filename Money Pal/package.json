@@ -1,0 +1,25 @@
+{
+  "name": "money_pal",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline --hot"
+  },
+  "dependencies": {
+    "material-ui": "^0.20.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.2"
+  }
+}
